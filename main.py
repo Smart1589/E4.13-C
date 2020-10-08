@@ -1,4 +1,4 @@
-temp = input('Enter the high today:')
-if eval(temp) > 86:
-  print('Go swimming')
-print('Have a nice day!')   
+age = input('Enter your age :')
+if eval(age) > 21:
+  print('vote')
+print('Goodbye!')   
