@@ -1,6 +1,6 @@
-problem = input('4 % 2:')
-if eval(problem) == 2:
-  print('Right')
-else:
-  print('Wrong')
+word = input('Enter a word:')
+if word.isalpha(): 
+  print(word[0]) 
+elif word.isdigit():
+  print('Not a name') 
 
